@@ -1,5 +1,8 @@
 "use strict";
 
+/*
+
+지난내용
 //변수
 let message= 'Hello';
 alert(message)
@@ -24,3 +27,12 @@ let ourPlanetName ='earth';
 let currentUserName = 'John';
 alert(ourPlanetName);
 alert(currentUserName);
+
+*/
+
+
+let name = 'chunsik';
+
+alert(`Hello ${1}`);
+alert(`hello ${"name"}`);
+alert(`hello ${name}`);
