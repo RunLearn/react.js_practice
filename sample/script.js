@@ -30,9 +30,10 @@ alert(currentUserName);
 
 */
 
+//
+// let name = 'chunsik';
+//
+// alert(`Hello ${1}`);
+// alert(`hello ${"name"}`);
+// alert(`hello ${name}`);
 
-let name = 'chunsik';
-
-alert(`Hello ${1}`);
-alert(`hello ${"name"}`);
-alert(`hello ${name}`);
