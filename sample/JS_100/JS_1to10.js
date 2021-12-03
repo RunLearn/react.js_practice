@@ -90,7 +90,6 @@
 
 //010
 
-// const treeHeight = prompt('트리의 높이를 알려주세요 : ')
 var reader = require('readline').createInterface({
     input:process.stdin,
     output:process.stdout
