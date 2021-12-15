@@ -49,4 +49,62 @@ var reader = require('readline').createInterface({
 // })
 
 //014
-reader.on('line',function (line))
+// reader.on('line',function (line){
+//     N = Number(line)
+//
+//     !(N % 3) ? console.log('짝') : console.log(N)
+// })
+
+//015
+// reader.on('line', function (line){
+//     console.log("안녕하세요. 저는 " + line + "입니다.")
+//     console.log(`안녕하세요. 저는 ${line}입니다.`)
+// })
+
+// //016
+// reader.on('line',function (line){
+//     let newString
+//     //풀이
+//     newString= line.split('').reverse().join('')
+//     console.log(newString)
+// })
+
+//017
+// reader.on('line', function (line){
+//     (line >= 150) ? console.log('YES') : console.log('NO')
+// })
+
+//018
+// reader.on('line', function (line){
+//     let arr = line.split(' ')
+//
+//     //forEach
+//     // arr.forEach( n => {
+//     //     arr_sum += Number(n)
+//     // })
+//
+//     //reduce
+//     arr_sum = arr.reduce((a,b) => a + Number(b) , 0)
+//
+//     console.log(Math.floor( arr_sum / arr.length))
+// })
+
+//019
+// reader.on('line',function (line){
+//     let result = line.split(' ')
+//
+//     //풀이
+//     console.log( Number(result[0]) ** Number(result[1]) )
+//
+//     //답안
+//     console.log( Math.pow( parseInt(result[0],10), parseInt(result[1])))
+//
+// })
+
+//020
+reader.on('line', function (line){
+    let number = line.split(' ').map(n => Number(n))
+
+    console.log(`몫 : ${ parseInt(number[0]/number[1], 10) } 나머지 : ${ number[0] % number[1] }`)
+
+})
